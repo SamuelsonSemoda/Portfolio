@@ -245,7 +245,7 @@ header ul li a {
 }
 
 .contact-block {
-    width: 1200px;
+    width: 50%;
     height: 500px;
     border-radius: 20px;
     background-color: var(--light-color);
@@ -309,4 +309,16 @@ footer {
         align-items: center;
     }
 
+    .card-list .card-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .heading-two {
+        font-size: 1.7rem;
+    }
+
+    .contact-block {
+        width: 100%;
+    }
 }
